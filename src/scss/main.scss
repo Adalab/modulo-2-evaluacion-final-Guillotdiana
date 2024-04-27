@@ -37,6 +37,12 @@
     }
 }
 
-.hidden{
-    display: none;
+.close{
+    background-color: grey;
+    color: white;
+    font-size: 10px;
+    border-radius: 50%;
+    font-weight: 900;
+    width: 25px;
+    height: 25px;
 }

@@ -14,6 +14,15 @@ const handleFavourite = (ev) =>{
        favsDrinks.splice(indexFavLi, 1);
     }
 
+    ulFavList.innerHTML = ""
+    for (const renderFav of favsDrinks) {
+        ulFavList.innerHTML += `<li class="card js-li" id="${renderFav.idDrink}">
+        <img class="card-img" src="${renderFav.strDrinkThumb}" alt="">
+        <h3>${renderFav.strDrink}</h3>
+        <button class="close js-btn-close">X</button>
+        </li>`
+    }
+
     console.log(favsDrinks);
     
 };
