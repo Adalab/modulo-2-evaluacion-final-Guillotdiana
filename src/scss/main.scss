@@ -21,10 +21,22 @@
     margin-top: 15px;
     display: flex;
     gap: 100px;
-
 }
 
-.li{
+.card{
     list-style: none;
-    
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid aquamarine;
+
+    &-img{
+        width: 50%;
+        height: 50%;
+    }
+}
+
+.hidden{
+    display: none;
 }
