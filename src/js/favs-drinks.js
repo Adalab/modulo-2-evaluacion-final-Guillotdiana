@@ -3,6 +3,8 @@
 
 
 const renderFav = () =>{
+
+    //Primero se recuperan datos de fav en el localStorage y luego renderizo
     // Recuperar favoritos del LocalStorage
     const localFavDrink = localStorage.getItem('favouriteDrink');
     // Si hay algo, lo meto en mi array de favoritos
@@ -28,13 +30,7 @@ const renderFav = () =>{
 }
 
  
-/*
-    //Busco si  hay algo en el localStorage  
-    const localFavDrink = localStorage.getItem('favouriteDrink');
-    // Si hay algo lo meto en mi array favoritos
-    if(localFavDrink != null){
-        favsDrinks = JSON.parse(localFavDrink)
-    }*/ 
+ 
 
 
 //evento favoritos
