@@ -10,7 +10,6 @@ const render = () => {
         ulList.innerHTML += `<li class="card js-li" id="${eachdrink.idDrink}">
       <img class="card-img" src="${eachdrink.strDrinkThumb}" alt="">
       <h3>${eachdrink.strDrink}</h3>
-      <button class=" close hidden -btn js-btn-close">Buscar</button>
       </li>`
     }
     const liDrinks = document.querySelectorAll('.js-li');
@@ -32,13 +31,12 @@ function handleSearch (ev){
       .then((data) => {
             drinks = data.drinks;
             console.log(drinks); 
-            render();
-         
+            render();      
         })
      
 }
-  
-btnSearch.addEventListener('click', handleSearch); 
-  
+
   
 
+btnSearch.addEventListener('click', handleSearch); 
+  
