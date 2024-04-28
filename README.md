@@ -18,5 +18,7 @@ inicio de npm
 ✅ Tecnologías utilizadas
 
 -HTML utilizado para crear la estructura de la aplicación.
+
 -CSS para darle estilo a la maquetación 
+
 -JavaScript para darle funcionalidad a los eventos 
