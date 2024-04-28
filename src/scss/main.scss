@@ -25,15 +25,19 @@
 
 .card{
     list-style: none;
-    width: 30%;
+   width: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid aquamarine;
+    border: 3px solid gainsboro;
+    color: grey;
+    border-radius: 15px;
+ 
 
     &-img{
-        width: 50%;
-        height: 50%;
+        width: 100%;
+        padding: 10px;
+     
     }
 }
 
@@ -45,4 +49,12 @@
     font-weight: 900;
     width: 25px;
     height: 25px;
+}
+
+.change{
+    border: 3px solid aquamarine;
+    border-radius: 15px;
+    color: aquamarine;
+
+
 }

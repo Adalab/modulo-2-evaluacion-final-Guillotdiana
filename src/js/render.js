@@ -31,13 +31,12 @@ function handleSearch (ev){
       .then((data) => {
             drinks = data.drinks;
             console.log(drinks); 
-            render();
-         
+            render();      
         })
      
 }
-  
-btnSearch.addEventListener('click', handleSearch); 
-  
+
   
 
+btnSearch.addEventListener('click', handleSearch); 
+  
