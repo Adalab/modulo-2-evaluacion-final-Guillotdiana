@@ -10,22 +10,27 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
   </head>
 
-  <body>
+  <body class="body">
     <main>
       <section class="section">
         <h1 class="section-title">Buscador Cócteles</h1>
         <form action="">
-          <input class="js-input" type="text" placeholder="Ej: Margarita" name:Cocktail>
-          <input class="js-btn-search" type="submit" value="Buscar">
-          <input class="js-btn-reset" type="submit" value="Reset">
+          <input class=" input js-input" type="text" placeholder="   Ej: Mojito" name:Cocktail>
+          <input class=" input-search js-btn-search" type="submit" value="Buscar">
+          <input class=" input-search js-btn-reset" type="submit" value="Reset">
         </form>
-        <section class="ul-section">
-          <h2>Cócteles Favoritos</h2>
-          <ul class="js-ul-fav"> 
-          </ul>
-          <h2>Lista</h2>
-          <ul class="js-ul">
-          </ul>
+        <section class="list">
+          <div>
+            <h2 class="list-title">Cócteles Favoritos</h2>
+            <ul class="list-fav js-ul-fav"> 
+            </ul>
+          </div>
+          
+          <div>
+            <h2 class="list-title">Lista</h2>
+            <ul class="list-normal js-ul">
+            </ul>
+          </div>
         </section>
       </section>
     </main>
